@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vijay Shanker Sharma - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <div id="particles-js"></div>
+  <header>
+    <nav class="nav-links">
+      <div class="hamburger" onclick="toggleMenu()">
+        <i class="fa fa-bars"></i>
+      </div>
+      <ul class="menu-links">
+        <li><a href="#home"><span class="material-icons">home</span>Home</a></li>
+        <li><a href="#about"><span class="material-icons">person</span>About</a></li>
+        <li><a href="#projects"><span class="material-icons">build</span>Projects</a></li>
+        <li><a href="#resume"><span class="material-icons">description</span>Resume</a></li>
+        <li><a href="#contact"><span class="material-icons">mail</span>Contact</a></li>
+        <li>
+          <div class="toggle-container">
+            <div class="sun-icon-container" onclick="activateLightMode()">
+              <div class="sun"><i class="material-icons">light_mode</i></div>
+              <div class="light-mode-indicator"></div>
+            </div>
+            <div class="moon" onclick="activateDarkMode()"><i class="material-icons">dark_mode</i></div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="intro">
+      <div class="intro-content">
+        <h1 class="intro-text">
+          Hi there!
+          <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" />
+          I'm Vijay Shanker Sharma
+        </h1>
+        <h3 class="intro-text">
+          Student | Tech Enthusiast | Aspiring Developer
+        </h3>
+      </div>
+    </div>
+    <div class="typing-svg-container" align="center">
+      <img id="typing-svg"
+        src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=0e75b6&size=24&center=true&vCenter=true&width=435&lines=Passionate+about+coding;Always+learning+new+things;Open+Source+Contributor;Love+problem+solving"
+        alt="Typing SVG">
+    </div>
+    <div class="intro-profile">
+      <img src="https://avatars.githubusercontent.com/u/109781385?s=400&u=42689d5904bcf265315be8f95470c9e2d4c83d6b&v=4"
+        alt="Vijay Shanker Sharma">
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-wrapper">
+      <h2 class="about-heading">About Me</h2>
+      <div class="about-content">
+        <h3>Know Who I Am</h3>
+        <p>
+          Hi Everyone, I am <span class="highlight">Vijay Shanker Sharma</span> from <span
+            class="highlight">Hyderabad, Telangana</span>.
+        </p>
+        <p>
+          I am currently pursuing my <span class="highlight">B.Tech in Computer Science</span> at <span
+            class="highlight">Mahaveer Institute of Science & Technology</span>.
+        </p>
+        <p>
+          I <span class="highlight">fell in love with programming</span> and have learned quite a bit along the way.
+        </p>
+        <p>
+          I am fluent in <span class="highlight">C++</span>, <span class="highlight">JavaScript</span>,
+          <span class="highlight">Java</span>, and <span class="highlight">Python</span>.
+        </p>
+        <p>
+          My interests include building new <span class="highlight">web applications</span>.
+        </p>
+        <p>
+          I am passionate about developing with modern JavaScript libraries and frameworks.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project-item">
+        <h3>Netflix Clone: Web Development Project</h3>
+        <p>
+          Developed a responsive Netflix clone using HTML, CSS, and JavaScript as part of a web development project.
+          Implemented interactive features to enhance user experience across multiple devices.
+        </p>
+        <a href="https://github.com/thevijayshankersharma/CVIP_WEB_DEVELOPMENT/tree/main/Phase-1/Netflix%20clone%20(Normal%20Task)"
+          target="_blank" class="github-link">
+          <button class="github-button">
+            <i class="fab fa-github"></i> GitHub
+          </button>
+        </a>
+      </div>
+      <div class="project-item">
+        <h3>Simple Library Management System</h3>
+        <p>
+          Created a Java-based Library Management System using Swing. The system supports admin and librarian logins for
+          efficient management of library operations. Demonstrates GUI design, object-oriented programming, and event
+          handling.
+        </p>
+        <a href="https://github.com/thevijayshankersharma/Java-Project/tree/main/JavaApplication4" target="_blank"
+          class="github-link">
+          <button class="github-button">
+            <i class="fab fa-github"></i> GitHub
+          </button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2 class="section-heading">Resume</h2>
+    <div class="resume-content">
+      <div class="resume-download">
+        <p>Download my resume to learn more about my skills and experiences.</p>
+        <a href="assets/VijayShankerSharma_Resume.pdf" download class="btn">Download My Resume</a>
+        <a href="assets/VijayShankerSharma_Resume.pdf" target="_blank" class="btn btn-view">View Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-heading">Contact Me</h2>
+    <div class="contact-form">
+        <form id="contactForm" action="http://localhost:3000/send" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div id="response"></div>
+    </div>
+</section>
+
+
+  <footer id="footer">
+    <div class="footer-content">
+      <p>&copy; 2024 Vijay Shanker Sharma</p>
+      <div class="social-icons">
+        <a href="https://github.com/thevijayshankersharma" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/thevijayshankersharma" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://x.com/Thevijayshanker" target="_blank"><i class="fab fa-x-twitter"></i></a>
+        <a href="mailto:vijayshankersharma658@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
