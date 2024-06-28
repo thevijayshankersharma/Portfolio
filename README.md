@@ -5,7 +5,7 @@ Welcome to my personal portfolio repository! This portfolio showcases my skills,
 
 ## Live Demo
 
-You can view the live demo of my portfolio [here](https://your-portfolio-link.com).
+You can view the live demo of my portfolio [here]([https://your-portfolio-link.com](https://portfolio-three-tau-62.vercel.app/)).
 
 ## Features
 
@@ -32,7 +32,7 @@ You can view the live demo of my portfolio [here](https://your-portfolio-link.co
 │   │   ├── profile.jpg
 │   │   ├── v1016-b-09.jpg
 │   │   └── v1016-b-09-light.jpg
-├── resume.pdf
+|   |── resume.pdf
 ├── index.html
 └── README.md
 ```
