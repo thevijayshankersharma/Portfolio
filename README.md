@@ -1,11 +1,10 @@
-
 # Vijay Shanker Sharma - Portfolio
 
 Welcome to my personal portfolio repository! This portfolio showcases my skills, projects, and professional background. It includes sections for Home, About, Projects, Resume, and Contact, with a focus on a modern, responsive design.
 
 ## Live Demo
 
-You can view the live demo of my portfolio [here]([https://your-portfolio-link.com](https://portfolio-three-tau-62.vercel.app/)).
+You can view the live demo of my portfolio [here](https://portfolio-vijay-shanker-sharmas-projects.vercel.app/).
 
 ## Features
 
@@ -22,7 +21,7 @@ You can view the live demo of my portfolio [here]([https://your-portfolio-link.c
 ## Folder Structure
 
 ```plaintext
-.
+
 ├── assets
 │   ├── css
 │   │   └── styles.css
@@ -32,7 +31,7 @@ You can view the live demo of my portfolio [here]([https://your-portfolio-link.c
 │   │   ├── profile.jpg
 │   │   ├── v1016-b-09.jpg
 │   │   └── v1016-b-09-light.jpg
-|   |── resume.pdf
+│   └── VijayShankerSharma_Resume.pdf
 ├── index.html
 └── README.md
 ```
@@ -64,7 +63,12 @@ To run this project locally, follow these steps:
 
 ## Contributing
 
-If you would like to contribute to this project, feel free to fork the repository and submit a pull request. Contributions are always welcome!
+If you would like to contribute to this project, feel free to fork the repository and submit a pull request. Here are a few ways you can contribute:
+
+- Report bugs
+- Suggest features
+- Improve documentation
+- Refactor code
 
 ## Contact
 
